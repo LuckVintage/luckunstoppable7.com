@@ -1,18 +1,44 @@
-<html>
-  <body>
-    <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-embed"></div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <meta property="og:title" content="LuckUnstoppable7" />
+        <meta property="og:description" content="Hey there! I'm Andrew, also known as LU7, a tech enthusiast from England who loves all things network-related." />
+        <meta property="og:image" content="logo.webp" />
+        <meta property="og:site_name" content="LuckUnstoppable7" />
+        <meta property="og:type" content="website" />
+        <title>LuckUnstoppable7</title>
+    </head>
 
-    <!-- Load the Twitch embed JavaScript file -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <body>
+        <header>
+            <img src="logo.webp" alt="LU7 Logo" style="max-width: 100px; margin-bottom: 10px;" />
+            <h1>Andrew Peacock</h1>
+            <p>Hey there! I'm Andrew, also known as LU7, a tech enthusiast from England who loves all things network-related. 💻 🌐 📡</p>
+            <p>I'm always tinkering with websites and exploring new tech. 🛠 👾</p>
 
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
-        channel: "luckunstoppable7",
-      });
-    </script>
-  </body>
+            <a href="https://discord.com/users/144812972802310145" target="_blank" class="discord-presence-link">
+                <img src="placeholder-blurred.svg" alt="Discord Presence" class="discord-presence-img" id="discord-img" />
+            </a>
+
+            <div class="social-icons">
+                <a href="https://discord.gg/4t93JCtrw8" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://github.com/LuckVintage" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCbn4EkKlVXOi8TJ3KYBYfZg" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://andrewpeacock.net" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://andrewpeacock.uk" target="_blank"><i class="fas fa-blog"></i></a>
+            </div>
+        </header>
+        <script src="script.js"></script>
+    </body>
 </html>
